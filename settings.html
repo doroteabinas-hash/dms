@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Settings | Administrative Document Management System</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+<div class="logo">
+
+<img src="https://kommodo.ai/i/GoeSn9NxYmtgaJYIguWH"
+alt="Company Logo">
+
+<div>
+
+<h2>ADMIN DMS</h2>
+
+<small>Document Management System</small>
+
+</div>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li>
+
+<a href="index.html">
+
+<i class="fa-solid fa-house"></i>
+
+Dashboard
+
+</a>
+
+</li>
+
+<li>
+
+<a href="documents.html">
+
+<i class="fa-solid fa-folder-open"></i>
+
+Documents
+
+</a>
+
+</li>
+
+<li>
+
+<a href="upload.html">
+
+<i class="fa-solid fa-upload"></i>
+
+Upload
+
+</a>
+
+</li>
+
+<li class="active">
+
+<a href="settings.html">
+
+<i class="fa-solid fa-gear"></i>
+
+Settings
+
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+</aside>
+
+<!-- MAIN CONTENT -->
+
+<div class="main-content">
+
+<header class="topbar">
+
+<h1>
+
+System Settings
+
+</h1>
+
+<p>
+
+Configure your Administrative Document Management System
+
+</p>
+
+</header>
+
+<section class="settings-panel">
+
+<h2>
+
+General Settings
+
+</h2>
+
+<div class="form-group">
+
+<label>
+
+Company Name
+
+</label>
+
+<input
+type="text"
+value="Administrative Document Management System">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Administrator Name
+
+</label>
+
+<input
+type="text"
+placeholder="Administrator">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Administrator Email
+
+</label>
+
+<input
+type="email"
+placeholder="admin@company.com">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Company Logo URL
+
+</label>
+
+<input
+type="text"
+value="https://kommodo.ai/i/GoeSn9NxYmtgaJYIguWH">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Theme
+
+</label>
+
+<select>
+
+<option>Light</option>
+
+<option>Dark</option>
+
+<option>System Default</option>
+
+</select>
+
+</div>
+<div class="form-group">
+
+<label>
+
+Default Language
+
+</label>
+
+<select>
+
+<option selected>English</option>
+
+<option>Filipino</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Default Time Zone
+
+</label>
+
+<select>
+
+<option selected>Asia/Manila (UTC +08:00)</option>
+
+<option>UTC</option>
+
+</select>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SECURITY SETTINGS -->
+<!-- ========================= -->
+
+<section class="settings-panel">
+
+<h2>
+
+<i class="fa-solid fa-shield-halved"></i>
+
+Security Settings
+
+</h2>
+
+<div class="form-group">
+
+<label>
+
+Session Timeout
+
+</label>
+
+<select>
+
+<option>15 Minutes</option>
+<option selected>30 Minutes</option>
+<option>1 Hour</option>
+<option>2 Hours</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Enable File Preview
+
+</label>
+
+<input type="checkbox" checked>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Allow Downloads
+
+</label>
+
+<input type="checkbox" checked>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Require Confirmation Before Delete
+
+</label>
+
+<input type="checkbox" checked>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- NOTIFICATIONS -->
+<!-- ========================= -->
+
+<section class="settings-panel">
+
+<h2>
+
+<i class="fa-solid fa-bell"></i>
+
+Notification Settings
+
+</h2>
+
+<div class="form-group">
+
+<label>
+
+Email Notifications
+
+</label>
+
+<input type="checkbox" checked>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+System Alerts
+
+</label>
+
+<input type="checkbox" checked>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Document Upload Notifications
+
+</label>
+
+<input type="checkbox">
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SYSTEM INFORMATION -->
+<!-- ========================= -->
+
+<section class="settings-panel">
+
+<h2>
+
+<i class="fa-solid fa-circle-info"></i>
+
+System Information
+
+</h2>
+
+<table>
+
+<tr>
+
+<th>System Name</th>
+
+<td>Administrative Document Management System</td>
+
+</tr>
+
+<tr>
+
+<th>Version</th>
+
+<td>1.0 Enterprise</td>
+
+</tr>
+
+<tr>
+
+<th>Platform</th>
+
+<td>GitHub Pages</td>
+
+</tr>
+
+<tr>
+
+<th>Database</th>
+
+<td>None (JSON File Storage)</td>
+
+</tr>
+
+<tr>
+
+<th>Developer</th>
+
+<td>Internal Administration</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<!-- ========================= -->
+<!-- ACTION BUTTONS -->
+<!-- ========================= -->
+
+<section class="settings-actions">
+
+<button type="submit">
+
+<i class="fa-solid fa-floppy-disk"></i>
+
+Save Changes
+
+</button>
+
+<button type="reset">
+
+<i class="fa-solid fa-arrow-rotate-left"></i>
+
+Reset
+
+</button>
+
+<button type="button"
+onclick="window.location='index.html'">
+
+<i class="fa-solid fa-house"></i>
+
+Back to Dashboard
+
+</button>
+
+</section>
+
+<footer class="footer">
+
+<p>
+
+© 2026 Administrative Document Management System
+
+</p>
+
+<p>
+
+Enterprise Edition | GitHub Pages Ready
+
+</p>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
