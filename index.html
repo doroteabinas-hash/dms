@@ -1,177 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Administrative Document Management System</title>
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Administrative Document Management System
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<div class="sidebar">
+<!-- ========================= -->
+<!-- SIDEBAR -->
+<!-- ========================= -->
+
+<aside class="sidebar">
 
     <div class="logo">
 
         <img src="https://kommodo.ai/i/GoeSn9NxYmtgaJYIguWH"
              alt="Company Logo">
 
-        <h2>ADMIN DMS</h2>
+        <div class="logo-text">
+
+            <h2>ADMIN DMS</h2>
+
+            <small>Document Management System</small>
+
+        </div>
 
     </div>
 
-    <ul>
+    <nav>
 
-        <li class="active">
-            <i class="fa-solid fa-house"></i>
-            <span>Dashboard</span>
-        </li>
+        <ul>
 
-        <li>
-            <i class="fa-solid fa-folder"></i>
-            <span>Administrative Documents</span>
-        </li>
+            <li class="active">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+            </li>
 
-        <li>
-            <i class="fa-solid fa-chart-line"></i>
-            <span>Reports</span>
-        </li>
+            <li>
+                <i class="fa-solid fa-folder"></i>
+                <span>Administrative Documents</span>
+            </li>
 
-        <li>
-            <i class="fa-solid fa-users"></i>
-            <span>HR Records</span>
-        </li>
+            <li>
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Reports</span>
+            </li>
 
-        <li>
-            <i class="fa-solid fa-folder-tree"></i>
-            <span>Document Control</span>
-        </li>
+            <li>
+                <i class="fa-solid fa-users"></i>
+                <span>HR & Employee Records</span>
+            </li>
 
-        <li>
-            <i class="fa-solid fa-boxes-stacked"></i>
-            <span>Inventory</span>
-        </li>
+            <li>
+                <i class="fa-solid fa-folder-tree"></i>
+                <span>Document Control</span>
+            </li>
 
-        <li>
-            <i class="fa-solid fa-calendar-days"></i>
-            <span>Meetings</span>
-        </li>
+            <li>
+                <i class="fa-solid fa-boxes-stacked"></i>
+                <span>Inventory & Office Assets</span>
+            </li>
 
-        <li>
-            <i class="fa-solid fa-file-lines"></i>
-            <span>Office Forms</span>
-        </li>
+            <
+                     <!-- ========================= -->
+        <!-- RECENT DOCUMENTS -->
+        <!-- ========================= -->
 
-        <li>
-            <i class="fa-solid fa-money-bill"></i>
-            <span>Finance</span>
-        </li>
+        <section class="recent-documents">
 
-        <li>
-            <i class="fa-solid fa-laptop"></i>
-            <span>Digital Administration</span>
-        </li>
+            <div class="section-header">
 
-    </ul>
+                <h2>
+                    <i class="fa-solid fa-folder-open"></i>
+                    Recent Documents
+                </h2>
+
+                <button class="btn-primary">
+                    View All
+                </button>
+
+            </div>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>No.</th>
+                        <th>Document Name</th>
+                        <th>Category</th>
+                        <th>Department</th>
+                        <th>Date Uploaded</th>
+                        <th>Status</th>
+                        <th>Action</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>001</td>
+                        <td>Administrative Memorandum.pdf</td>
+                        <td>Administrative Documents</td>
+                        <td>Administration</td>
+                        <td>July 11, 2026</td>
+                        <td>Active</td>
+
+                        <td>
+
+                            <button title="View">
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button title="Download">
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>002</td>
+                        <td>Incident Report.pdf</td>
+                        <td>Reports</td>
+                        <td>Administration</td>
+                        <td>July 10, 2026</td>
+                        <td>Active</td>
+
+                        <td>
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>003</td>
+                        <td>Employee Master List.xlsx</td>
+                        <td>HR Records</td>
+                        <td>Human Resources</td>
+                        <td>July 09, 2026</td>
+                        <td>Active</td>
+
+                        <td>
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>004</td>
+                        <td>Purchase Request.docx</td>
+                        <td>Finance & Procurement</td>
+                        <td>Finance</td>
+                        <td>July 08, 2026</td>
+                        <td>Pending</td>
+
+                        <td>
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>005</td>
+                        <td>Minutes of Meeting.pdf</td>
+                        <td>Meetings</td>
+                        <td>Administration</td>
+                        <td>July 07, 2026</td>
+                        <td>Archived</td>
+
+                        <td>
+
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-download"></i>
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- QUICK ACTIONS -->
+        <!-- ========================= -->
+
+        <section class="quick-actions">
+
+            <div class="section-header">
+
+                <h2>
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    Quick Actions
+
+                </h2>
+
+            </div>
+
+            <div class="action-grid">
+
+                <button class="action-card">
+
+                    <i class="fa-solid fa-upload"></i>
+
+                    <span>Upload Document</span>
+
+                </button>
+
+                <button class="action-card">
+
+                    <i class="fa-solid fa-folder-plus"></i>
+
+                    <span>Create Folder</span>
+
+                </button>
+
+                <button class="action-card">
+
+                    <i class="fa-solid fa-file-circle-plus"></i>
+
+                    <span>New Record</span>
+
+                </button>
+
+                <button class="action-card">
+
+                    <i class="fa-solid fa-print"></i>
+
+                    <span>Generate Report</span>
+
+                </button>
+
+                <button class="action-card">
+
+                    <i class="fa-solid fa-users"></i>
+
+                    <span>Employee Records</span>
+
+                </button>
+
+                <button class="action-card">
+
+                    <i class="fa-solid fa-box-archive"></i>
+
+                    <span>Archive Files</span>
+
+                </button>
+
+            </div>
+
+        </section> 
+        <!-- ========================= -->
+        <!-- DOCUMENT CATEGORY SUMMARY -->
+        <!-- ========================= -->
+
+        <section class="category-summary">
+
+            <div class="section-header">
+
+                <h2>
+                    <i class="fa-solid fa-chart-pie"></i>
+                    Document Categories
+                </h2>
+
+            </div>
+
+            <div class="summary-grid">
+
+                <div class="summary-card">
+                    <h3>Administrative</h3>
+                    <p>20 Documents</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Reports</h3>
+                    <p>15 Documents</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>HR Records</h3>
+                    <p>18 Documents</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Document Control</h3>
+                    <p>10 Documents</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Inventory</h3>
+                    <p>12 Documents</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Finance</h3>
+                    <p>8 Documents</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- RECENT ACTIVITY -->
+        <!-- ========================= -->
+
+        <section class="recent-activity">
+
+            <div class="section-header">
+
+                <h2>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    Recent Activity
+                </h2>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    <strong>09:15 AM</strong> —
+                    Administrative Memorandum.pdf uploaded.
+                </li>
+
+                <li>
+                    <strong>09:42 AM</strong> —
+                    Incident Report.pdf updated.
+                </li>
+
+                <li>
+                    <strong>10:10 AM</strong> —
+                    Employee Master List.xlsx downloaded.
+                </li>
+
+                <li>
+                    <strong>11:30 AM</strong> —
+                    Purchase Request.docx approved.
+                </li>
+
+                <li>
+                    <strong>01:45 PM</strong> —
+                    Minutes of Meeting.pdf archived.
+                </li>
+
+            </ul>
+
+        </section>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Administrative Document Management System.
+        All Rights Reserved.
+    </p>
+
+</footer>
 
 </div>
 
-<div class="main-content">
+</body>
 
-<header>
-
-<div class="search-box">
-
-<input
-type="text"
-placeholder="Search documents...">
-
-<button>
-
-<i class="fa-solid fa-magnifying-glass"></i>
-
-</button>
-
-</div>
-
-<div class="top-right">
-
-<button class="dark-btn">
-
-<i class="fa-solid fa-moon"></i>
-
-</button>
-
-<div class="profile">
-
-<i class="fa-solid fa-circle-user"></i>
-
-<span>Administrator</span>
-
-</div>
-
-</div>
-
-</header>
-
-<section class="dashboard">
-
-<h1>
-
-Administrative Document Management System
-
-</h1>
-
-<p>
-
-Professional Enterprise Dashboard
-
-</p>
-
-<div class="cards">
-
-<div class="card">
-
-<i class="fa-solid fa-folder"></i>
-
-<h2>256</h2>
-
-<p>Total Documents</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-file-circle-check"></i>
-
-<h2>25</h2>
-
-<p>Today's Upload</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-users"></i>
-
-<h2>84</h2>
-
-<p>Employees</p>
-
-</div>
-
-<div class="card">
-
-<i class="fa-solid fa-box"></i>
-
-<h2>142</h2>
-
-<p>Assets</p>
-
-</div>
-
-</div>
+</html>
