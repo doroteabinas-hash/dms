@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Documents | Administrative Document Management System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- SIDEBAR -->
+<!-- ========================= -->
+
+<aside class="sidebar">
+
+    <div class="logo">
+
+        <img src="https://kommodo.ai/i/GoeSn9NxYmtgaJYIguWH"
+             alt="Company Logo">
+
+        <div>
+
+            <h2>ADMIN DMS</h2>
+
+            <small>Document Management System</small>
+
+        </div>
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="documents.html">
+                    <i class="fa-solid fa-folder-open"></i>
+                    Documents
+                </a>
+            </li>
+
+            <li>
+                <a href="upload.html">
+                    <i class="fa-solid fa-upload"></i>
+                    Upload
+                </a>
+            </li>
+
+            <li>
+                <a href="settings.html">
+                    <i class="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</aside>
+
+<!-- ========================= -->
+<!-- MAIN CONTENT -->
+<!-- ========================= -->
+
+<div class="main-content">
+
+<header class="topbar">
+
+    <div>
+
+        <h1>Documents</h1>
+
+        <p>Administrative Document Repository</p>
+
+    </div>
+
+    <div class="top-actions">
+
+        <input
+            type="text"
+            placeholder="Search documents...">
+
+        <button>
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+<!-- ========================= -->
+<!-- FILTERS -->
+<!-- ========================= -->
+
+<section class="filter-panel">
+
+    <select>
+
+        <option>All Categories</option>
+        <option>Administrative Documents</option>
+        <option>Reports</option>
+        <option>HR & Employee Records</option>
+        <option>Document Control</option>
+        <option>Inventory & Office Assets</option>
+        <option>Meetings</option>
+        <option>Office Forms</option>
+        <option>Finance & Procurement</option>
+        <option>Digital Administration</option>
+
+    </select>
+
+    <select>
+
+        <option>All Status</option>
+        <option>Active</option>
+        <option>Pending</option>
+        <option>Archived</option>
+
+    </select>
+
+    <button>
+
+        <i class="fa-solid fa-filter"></i>
+
+        Apply Filter
+
+    </button>
+
+</section>
+
+<!-- ========================= -->
+<!-- DOCUMENT LIST -->
+<!-- ========================= -->
+
+<section class="documents-list">
+
+    <div class="section-header">
+
+        <h2>
+
+            <i class="fa-solid fa-folder"></i>
+
+            Document Repository
+
+        </h2>
+
+    </div>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>No.</th>
+
+                <th>Document</th>
+
+                <th>Category</th>
+
+                <th>Department</th>
+
+                <th>Date Uploaded</th>
+
+                <th>Status</th>
+
+                <th>Actions</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+                     <!-- ========================= -->
+            <!-- SAMPLE DOCUMENTS -->
+            <!-- ========================= -->
+
+            <tr>
+
+                <td>001</td>
+
+                <td>
+                    Administrative Memorandum.pdf
+                </td>
+
+                <td>
+                    Administrative Documents
+                </td>
+
+                <td>
+                    Administration
+                </td>
+
+                <td>
+                    July 11, 2026
+                </td>
+
+                <td>
+
+                    <span class="status active">
+
+                        Active
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button title="Preview">
+
+                        <i class="fa-solid fa-eye"></i>
+
+                    </button>
+
+                    <button title="Download">
+
+                        <i class="fa-solid fa-download"></i>
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>002</td>
+
+                <td>Incident Report.pdf</td>
+
+                <td>Reports</td>
+
+                <td>Administration</td>
+
+                <td>July 10, 2026</td>
+
+                <td>
+
+                    <span class="status active">
+
+                        Active
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button>
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>003</td>
+
+                <td>Employee Master List.xlsx</td>
+
+                <td>HR & Employee Records</td>
+
+                <td>Human Resources</td>
+
+                <td>July 09, 2026</td>
+
+                <td>
+
+                    <span class="status active">
+
+                        Active
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button>
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>004</td>
+
+                <td>Purchase Request.docx</td>
+
+                <td>Finance & Procurement</td>
+
+                <td>Finance Department</td>
+
+                <td>July 08, 2026</td>
+
+                <td>
+
+                    <span class="status pending">
+
+                        Pending
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button>
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>005</td>
+
+                <td>Minutes of Meeting.pdf</td>
+
+                <td>Meetings</td>
+
+                <td>Administration</td>
+
+                <td>July 07, 2026</td>
+
+                <td>
+
+                    <span class="status archived">
+
+                        Archived
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button>
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>006</td>
+
+                <td>Office Supply Inventory.xlsx</td>
+
+                <td>Inventory & Office Assets</td>
+
+                <td>Property Custodian</td>
+
+                <td>July 06, 2026</td>
+
+                <td>
+
+                    <span class="status active">
+
+                        Active
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button>
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>007</td>
+
+                <td>Visitor Logbook.pdf</td>
+
+                <td>Office Forms</td>
+
+                <td>Administration</td>
+
+                <td>July 05, 2026</td>
+
+                <td>
+
+                    <span class="status active">
+
+                        Active
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button>
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+
+                </td>
+
+            </tr>
+                    </tbody>
+
+    </table>
+
+</section>
+
+<!-- ========================= -->
+<!-- DOCUMENT SUMMARY -->
+<!-- ========================= -->
+
+<section class="document-summary">
+
+    <div class="summary-card">
+
+        <h3>Total Documents</h3>
+
+        <h1>256</h1>
+
+    </div>
+
+    <div class="summary-card">
+
+        <h3>Active Files</h3>
+
+        <h1>218</h1>
+
+    </div>
+
+    <div class="summary-card">
+
+        <h3>Pending Review</h3>
+
+        <h1>21</h1>
+
+    </div>
+
+    <div class="summary-card">
+
+        <h3>Archived</h3>
+
+        <h1>17</h1>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- PAGINATION -->
+<!-- ========================= -->
+
+<section class="pagination">
+
+    <button>
+
+        <i class="fa-solid fa-angle-left"></i>
+
+    </button>
+
+    <button class="active">1</button>
+
+    <button>2</button>
+
+    <button>3</button>
+
+    <button>4</button>
+
+    <button>
+
+        <i class="fa-solid fa-angle-right"></i>
+
+    </button>
+
+</section>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer class="footer">
+
+    <p>
+
+        © 2026 Administrative Document Management System
+
+    </p>
+
+    <p>
+
+        Enterprise Edition | GitHub Pages Ready
+
+    </p>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
