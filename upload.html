@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Upload Document | Administrative Document Management System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- SIDEBAR -->
+<!-- ========================= -->
+
+<aside class="sidebar">
+
+    <div class="logo">
+
+        <img src="https://kommodo.ai/i/GoeSn9NxYmtgaJYIguWH"
+             alt="Company Logo">
+
+        <div>
+
+            <h2>ADMIN DMS</h2>
+
+            <small>Document Management System</small>
+
+        </div>
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="documents.html">
+                    <i class="fa-solid fa-folder-open"></i>
+                    Documents
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="upload.html">
+                    <i class="fa-solid fa-upload"></i>
+                    Upload Document
+                </a>
+            </li>
+
+            <li>
+                <a href="settings.html">
+                    <i class="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</aside>
+
+<!-- ========================= -->
+<!-- MAIN CONTENT -->
+<!-- ========================= -->
+
+<div class="main-content">
+
+<header class="topbar">
+
+    <div>
+
+        <h1>Upload Document</h1>
+
+        <p>Add a new document to the repository</p>
+
+    </div>
+
+</header>
+
+<!-- ========================= -->
+<!-- UPLOAD FORM -->
+<!-- ========================= -->
+
+<section class="upload-form">
+
+<form>
+
+<div class="upload-box">
+
+    <i class="fa-solid fa-cloud-arrow-up"></i>
+
+    <h2>Drag & Drop Files Here</h2>
+
+    <p>or click the button below to select a file</p>
+
+    <input
+        type="file"
+        id="documentFile">
+
+</div>
+
+<div class="form-grid">
+
+<div class="form-group">
+
+<label>
+
+Document Title
+
+</label>
+
+<input
+type="text"
+placeholder="Enter document title">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Document Number
+
+</label>
+
+<input
+type="text"
+placeholder="Example: ADM-2026-001">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Category
+
+</label>
+
+<select>
+
+<option>Administrative Documents</option>
+<option>Reports</option>
+<option>HR & Employee Records</option>
+<option>Document Control</option>
+<option>Inventory & Office Assets</option>
+<option>Meetings</option>
+<option>Office Forms</option>
+<option>Finance & Procurement</option>
+<option>Digital Administration</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Department
+
+</label>
+
+<input
+type="text"
+placeholder="Department Name">
+
+</div>
+<div class="form-group">
+
+<label>
+
+Description
+
+</label>
+
+<textarea
+rows="5"
+placeholder="Enter document description..."></textarea>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Tags / Keywords
+
+</label>
+
+<input
+type="text"
+placeholder="Example: HR, Memorandum, 2026">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Version
+
+</label>
+
+<input
+type="text"
+value="1.0">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Status
+
+</label>
+
+<select>
+
+<option>Active</option>
+<option>Pending Review</option>
+<option>Archived</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Access Level
+
+</label>
+
+<select>
+
+<option>Public</option>
+<option>Internal</option>
+<option>Confidential</option>
+<option>Restricted</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Effective Date
+
+</label>
+
+<input
+type="date">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Expiration Date
+
+</label>
+
+<input
+type="date">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Uploaded By
+
+</label>
+
+<input
+type="text"
+placeholder="Administrator">
+
+</div>
+
+</div>
+
+<div class="upload-actions">
+
+<button type="submit">
+
+<i class="fa-solid fa-floppy-disk"></i>
+
+Save Document
+
+</button>
+
+<button type="reset">
+
+<i class="fa-solid fa-arrow-rotate-left"></i>
+
+Reset
+
+</button>
+
+<button type="button"
+onclick="window.location='documents.html'">
+
+<i class="fa-solid fa-ban"></i>
+
+Cancel
+
+</button>
+
+</div>
+
+</form>
+
+</section>
+
+<!-- ========================= -->
+<!-- UPLOAD GUIDELINES -->
+<!-- ========================= -->
+
+<section class="upload-guidelines">
+
+<h2>
+
+<i class="fa-solid fa-circle-info"></i>
+
+Upload Guidelines
+
+</h2>
+
+<ul>
+
+<li>Supported files: PDF, DOCX, XLSX, PPTX, JPG, PNG, ZIP.</li>
+
+<li>Use a unique document number for every document.</li>
+
+<li>Verify the selected category before saving.</li>
+
+<li>Only upload final and approved documents.</li>
+
+<li>Avoid special characters in filenames when possible.</li>
+
+<li>Review all document details before submission.</li>
+
+</ul>
+
+</section>
+
+<footer class="footer">
+
+<p>
+
+© 2026 Administrative Document Management System
+
+</p>
+
+<p>
+
+Enterprise Edition | GitHub Pages Ready
+
+</p>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
