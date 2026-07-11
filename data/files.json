@@ -1,0 +1,144 @@
+[
+    {
+        "id": "ADM-2026-001",
+        "name": "Administrative Memorandum.pdf",
+        "category": "Administrative Documents",
+        "department": "Administration",
+        "date": "July 11, 2026",
+        "status": "Active",
+        "type": "PDF",
+        "size": "2.45 MB",
+        "uploadedBy": "Administrator",
+        "file": "documents/Administrative Documents/Administrative Memorandum.pdf"
+    },
+
+    {
+        "id": "ADM-2026-002",
+        "name": "Business Letter.docx",
+        "category": "Administrative Documents",
+        "department": "Administration",
+        "date": "July 10, 2026",
+        "status": "Active",
+        "type": "DOCX",
+        "size": "850 KB",
+        "uploadedBy": "Administrator",
+        "file": "documents/Administrative Documents/Business Letter.docx"
+    },
+
+    {
+        "id": "REP-2026-001",
+        "name": "Incident Report.pdf",
+        "category": "Reports",
+        "department": "Administration",
+        "date": "July 10, 2026",
+        "status": "Active",
+        "type": "PDF",
+        "size": "1.20 MB",
+        "uploadedBy": "HR Department",
+        "file": "documents/Reports/Incident Report.pdf"
+    },
+
+    {
+        "id": "HR-2026-001",
+        "name": "Employee Master List.xlsx",
+        "category": "HR & Employee Records",
+        "department": "Human Resources",
+        "date": "July 09, 2026",
+        "status": "Active",
+        "type": "XLSX",
+        "size": "3.10 MB",
+        "uploadedBy": "HR Administrator",
+        "file": "documents/HR Records/Employee Master List.xlsx"
+    },
+
+    {
+        "id": "DOC-2026-001",
+        "name": "Document Control Register.xlsx",
+        "category": "Document Control",
+        "department": "Administration",
+        "date": "July 08, 2026",
+        "status": "Active",
+        "type": "XLSX",
+        "size": "1.80 MB",
+        "uploadedBy": "Document Controller",
+        "file": "documents/Document Control/Document Control Register.xlsx"
+    }
+]
+    {
+        "id": "INV-2026-001",
+        "name": "Office Supply Inventory.xlsx",
+        "category": "Inventory & Office Assets",
+        "department": "Property Custodian",
+        "date": "July 07, 2026",
+        "status": "Active",
+        "type": "XLSX",
+        "size": "2.15 MB",
+        "uploadedBy": "Inventory Officer",
+        "file": "documents/Inventory & Office Assets/Office Supply Inventory.xlsx"
+    },
+
+    {
+        "id": "MTG-2026-001",
+        "name": "Minutes of Meeting.pdf",
+        "category": "Meetings",
+        "department": "Administration",
+        "date": "July 06, 2026",
+        "status": "Archived",
+        "type": "PDF",
+        "size": "980 KB",
+        "uploadedBy": "Meeting Secretary",
+        "file": "documents/Meetings/Minutes of Meeting.pdf"
+    },
+
+    {
+        "id": "FRM-2026-001",
+        "name": "Visitor Logbook.pdf",
+        "category": "Office Forms",
+        "department": "Front Office",
+        "date": "July 05, 2026",
+        "status": "Active",
+        "type": "PDF",
+        "size": "1.50 MB",
+        "uploadedBy": "Reception Officer",
+        "file": "documents/Office Forms/Visitor Logbook.pdf"
+    },
+
+    {
+        "id": "FIN-2026-001",
+        "name": "Purchase Request.docx",
+        "category": "Finance & Procurement",
+        "department": "Finance Department",
+        "date": "July 04, 2026",
+        "status": "Pending",
+        "type": "DOCX",
+        "size": "760 KB",
+        "uploadedBy": "Finance Officer",
+        "file": "documents/Finance & Procurement/Purchase Request.docx"
+    },
+
+    {
+        "id": "DIG-2026-001",
+        "name": "Handover Checklist.pdf",
+        "category": "Digital Administration",
+        "department": "IT Administration",
+        "date": "July 03, 2026",
+        "status": "Active",
+        "type": "PDF",
+        "size": "1.05 MB",
+        "uploadedBy": "System Administrator",
+        "file": "documents/Digital Administration/Handover Checklist.pdf"
+    },
+
+    {
+        "id": "DIG-2026-002",
+        "name": "Shared Folder Index.xlsx",
+        "category": "Digital Administration",
+        "department": "IT Administration",
+        "date": "July 02, 2026",
+        "status": "Active",
+        "type": "XLSX",
+        "size": "890 KB",
+        "uploadedBy": "System Administrator",
+        "file": "documents/Digital Administration/Shared Folder Index.xlsx"
+    }
+]
